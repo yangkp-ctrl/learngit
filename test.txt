@@ -6,5 +6,5 @@ Git is free software.
 4. 1234567890 add 10
 Git is a distributed version control system.
 Gti is free software.
-
+this a ok
 add text to branch dev, this is a new branch
