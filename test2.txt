@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 123
 
 sdfasdf
@@ -11,3 +12,5 @@ fix ps 10
 32123
 fix ps 12
 6
+=======
+>>>>>>> Stashed changes
