@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package ProTest;
+
+//任务汇报
+message taskReport
+{
+ enum Type {
+	CREATE = 0;
+	START = 1;
+	PROGRESS = 2;
+    COMPLETE = 3;
+    FAILD = 4; 
+  } 
+bytes taskName = 1;
+Type taskType = 2;
+bytes taskDesc = 3;
+int32 queueNum = 4;
+}
+
+//表格数据存储
+message List{
+	repeated string value = 1;
+}
+
+message Table{
+	List columnName = 1;
+	map<string, List> rowList = 2;
+}
+
